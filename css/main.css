@@ -1,1 +1,36 @@
 @import url('normalize.css');
+
+.container {
+    max-width: 990px;
+    min-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.round-row {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.round {
+    float: left;
+    width: 14.28%;
+}
+
+.round-info-wrapper {
+    text-align: center;
+    margin: 10px 0px 8px 0px;
+}
+
+.round-info {
+    margin-bottom: 2px;
+}
+
+.loader {
+    text-align: center;
+}
